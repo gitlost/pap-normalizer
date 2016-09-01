@@ -14,7 +14,7 @@ module.exports = function( grunt ) { //The wrapper function
 				options: {
 					'screenshot_url': 'https://ps.w.org/{plugin}/assets/{screenshot}.png',
 					'post_convert': function ( readme ) {
-						readme = '[![Build Status](https://travis-ci.org/gitlost/pap-normalizer.png?branch=master)](https://travis-ci.org/gitlost/pap-normalizer)[![codecov.io](http://codecov.io/github/gitlost/pap-normalizer/coverage.svg?branch=master)](http://codecov.io/github/gitlost/pap-normalizer?branch=master)\n' + readme;
+						readme = '[![Build Status](https://travis-ci.org/gitlost/pap-normalizer.png?branch=master)](https://travis-ci.org/gitlost/pap-normalizer)\n' + readme;
 						return readme;
 					}
 				}

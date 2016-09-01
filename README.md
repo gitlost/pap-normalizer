@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gitlost/pap-normalizer.png?branch=master)](https://travis-ci.org/gitlost/pap-normalizer)[![codecov.io](http://codecov.io/github/gitlost/pap-normalizer/coverage.svg?branch=master)](http://codecov.io/github/gitlost/pap-normalizer?branch=master)
+[![Build Status](https://travis-ci.org/gitlost/pap-normalizer.png?branch=master)](https://travis-ci.org/gitlost/pap-normalizer)
 # PHP Normalizer #
 **Contributors:** [gitlost](https://profiles.wordpress.org/gitlost)  
 **Tags:** Unicode, Normalization, Normalize, Normalizer, UTF-8, NFC  
