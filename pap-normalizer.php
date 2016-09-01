@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: PAP Normalizer
- * Plugin URI: https://github.com/gitlost/pap-normalize
+ * Plugin URI: https://github.com/gitlost/pap-normalizer
  * Description: Patch-as-plugin that adds the Normalizer class to WP (and a demo normalizing filter).
  * Version: 1.0.0
  * Author: gitlost
