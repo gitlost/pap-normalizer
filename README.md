@@ -17,5 +17,5 @@ Adds the Symfony Normalizer polyfill if the `Intl` extension is not installed.
 As a demonstration, adds normalizing and `remove_accents` filters to `sanitize_file_name`, addressing trac tickets
 
 * [#35951](https://core.trac.wordpress.org/ticket/35951)
-* [#24661](https://core.trac.wordpress.org/ticket/24661) to a certain extent.
-* [#22363](https://core.trac.wordpress.org/ticket/22363)
+* [#24661](https://core.trac.wordpress.org/ticket/24661)
+* [#22363](https://core.trac.wordpress.org/ticket/22363) to a certain extent.
