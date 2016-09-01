@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/gitlost/pap-normalizer.png?branch=master)](https://travis-ci.org/gitlost/pap-normalizer)
-# PHP Normalizer #
+# PAP Normalizer #
 **Contributors:** [gitlost](https://profiles.wordpress.org/gitlost)  
 **Tags:** Unicode, Normalization, Normalize, Normalizer, UTF-8, NFC  
 **Requires at least:** 3.9.13  

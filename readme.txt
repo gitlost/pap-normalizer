@@ -1,4 +1,4 @@
-=== PHP Normalizer ===
+=== PAP Normalizer ===
 Contributors: gitlost
 Tags: Unicode, Normalization, Normalize, Normalizer, UTF-8, NFC
 Requires at least: 3.9.13
