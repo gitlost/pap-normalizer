@@ -7,14 +7,8 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Patch-as-plugin that adds the Normalizer class to WP (and a demo normalizing filter).
+Patch-as-plugin that adds the Normalizer class to WP.
 
 == Description ==
 
 Adds the Symfony Normalizer polyfill if the `Intl` extension is not installed.
-
-As a demonstration, adds normalizing and `remove_accents` filters to `sanitize_file_name`, addressing trac tickets
-
-* [#35951](https://core.trac.wordpress.org/ticket/35951)
-* [#24661](https://core.trac.wordpress.org/ticket/24661)
-* [#22363](https://core.trac.wordpress.org/ticket/22363) to a certain extent.

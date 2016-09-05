@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PAP Normalizer
  * Plugin URI: https://github.com/gitlost/pap-normalizer
- * Description: Patch-as-plugin that adds the Normalizer class to WP (and a demo normalizing filter).
+ * Description: Patch-as-plugin that adds the Normalizer class to WP.
  * Version: 1.0.0
  * Author: gitlost
  * Author URI: https://profiles.wordpress.org/gitlost
@@ -13,10 +13,9 @@
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-// If blog using UTF-8...
+// The following could go in "wp-includes/compat.php".
 if ( 'UTF-8' === _canonical_charset( get_option( 'blog_charset' ) ) ) {
 
-	// The following could go (along with the UTF-8 blog check above) in "wp-includes/compat.php".
 	if ( ! function_exists( 'normalizer_is_normalized' ) ) :
 		require dirname( __FILE__ ) . '/Symfony/Normalizer.php'; // require ABSPATH . WPINC . '/Symfony/Normalizer.php';
 
@@ -73,28 +72,4 @@ if ( 'UTF-8' === _canonical_charset( get_option( 'blog_charset' ) ) ) {
 			return _Normalizer::normalize( $s, $form );
 		}
 	endif;
-	// End of "wp-includes/compat.php" stuff.
-
-	/**
-	 * Demonstration filter. Normalize $str to NFC.
-	 */
-	function pap_normalizer_filter( $str ) {
-		if ( ! normalizer_is_normalized( $str ) ) {
-			$normalized = normalizer_normalize( $str );
-			if ( false !== $normalized ) {
-				$str = $normalized;
-			}
-		}
-
-		return $str;
-	}
-
-	/*
-	 * Add demonstration filter.
-	 * https://core.trac.wordpress.org/ticket/35951
-	 * https://core.trac.wordpress.org/ticket/24661 to a certain extent.
-	 * https://core.trac.wordpress.org/ticket/22363
-	 */
-	add_filter( 'sanitize_file_name', 'pap_normalizer_filter', 6 );
-	add_filter( 'sanitize_file_name', 'remove_accents' );
 }
