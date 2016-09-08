@@ -1,7 +1,7 @@
 {
   "name": "pap-normalizer",
   "version": "1.0.0",
-  "description": "Patch-as-plugin that adds the Normalizer class to WP (and a demo normalizing filter).",
+  "description": "Patch-as-plugin that adds the Normalizer class to WP.",
   "repository": {
     "type": "git",
     "url": "git://github.com/gitlost/pap-normalizer"
