@@ -3,7 +3,7 @@
 **Contributors:** [gitlost](https://profiles.wordpress.org/gitlost)  
 **Tags:** Unicode, Normalization, Normalize, Normalizer, UTF-8, NFC  
 **Requires at least:** 3.9.13  
-**Tested up to:** 4.6  
+**Tested up to:** 4.6.1  
 **Stable tag:** 1.0.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
